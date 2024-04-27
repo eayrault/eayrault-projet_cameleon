@@ -1,0 +1,158 @@
+body{
+    width: 900px;
+    margin: 0em auto 0em;
+    background-color: #2f3848;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: white;
+    font-style: italic;
+    background-color: #f05768;
+    text-align: center;
+    border-bottom: 3px solid whitesmoke;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+    font-size: 2.5em;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    padding: 0em;
+}
+
+header li{
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-right: 1rem;
+}
+
+.menu_index{
+    padding-right: 1rem;
+}
+
+.menu_index a{
+    color: yellowgreen;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.menu_index a:hover{
+    text-decoration: underline;
+}
+
+.menu_reseau{
+    padding-left: 0.4rem;
+}
+
+.menu_reseau img{
+    width: 1.5rem;
+    position: static;
+    transition: transform .2s;
+}
+
+.menu_reseau img:hover{
+    transform: scale(1.5);
+}
+
+h2{
+    color: #0F98CC;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+article p{
+    color: white;
+    font-weight: bold;
+}
+
+article strong{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+.semaine{
+    position: relative;
+}
+
+h3{
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    background-color:  #f05768;
+    color: white;
+    margin: 0em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.semaine img{
+    width: 900px;
+}
+
+.container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.image1{
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    width: 270px;
+}
+
+.image2{
+    width: 130px;
+}
+
+.soumettre{
+    background-color: #004488;
+    width: 300px;
+    padding: 0em 2rem 0em;
+}
+
+h4{
+    color: #00ccff;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    padding: 0em 0em 1em;
+}
+
+.soumettre p{
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.soumettre a{
+    color: yellowgreen;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 10em;
+    text-align: center;
+    color: #60B9CE;
+}
